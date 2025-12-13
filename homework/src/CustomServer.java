@@ -9,7 +9,12 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.*;
 
- 
+// curl -X GET http://localhost:8000/login
+// curl -X GET -H "login: ha" http://localhost:8000/image > output.jpg
+// curl -X POST -H "login: ha" -d "rock" http://localhost:8000/game
+// curl -X DELETE -H "login: ha" "http://localhost:8000/delete?path=./dump/hello.txt" 
+
+
 // server 
 public class CustomServer { 
  
